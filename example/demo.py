@@ -8,14 +8,17 @@ class PluginInterface():
     def interface1(self, param1, param2):
         pass
 
-    @manager.interfaceHookspec(isSingle=False, isOnlyResult=True, isAsync=False)
+    @manager.interfaceHookspec(isSingle=True, isOnlyResult=False, isAsync=False)
     def interface2(self, param1, param2):
         pass
 
-    @manager.interfaceHookspec(isSingle=False, isOnlyResult=False, isAsync=True)
+    @manager.interfaceHookspec(isSingle=False, isOnlyResult=True, isAsync=False)
     def interface3(self, param1, param2):
         pass
 
+    @manager.interfaceHookspec(isSingle=False, isOnlyResult=False, isAsync=True)
+    def interface4(self, param1, param2):
+        pass
 
 
 if __name__ == "__main__":
