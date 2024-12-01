@@ -21,6 +21,8 @@ class PluginInterface():
         pass
 
 
+
+
 if __name__ == "__main__":
-    
+    # 1 . init plugin
     manager = PluginManaer()

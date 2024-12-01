@@ -21,6 +21,7 @@
 *.zip
 *.idea
 
+
 # Logs and databases #
 ######################
 *.log
