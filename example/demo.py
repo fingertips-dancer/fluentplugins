@@ -22,4 +22,5 @@ class PluginInterface():
 
 
 if __name__ == "__main__":
+    
     manager = PluginManaer()
